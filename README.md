@@ -1,4 +1,4 @@
-# Contacts-Seperator
+# Seperator
 A simple and color full tool in python for separating Name and Number from a paragraph or any file.  
 
 # Usage
@@ -6,7 +6,7 @@ A simple and color full tool in python for separating Name and Number from a par
 2. apt install git
 3. git clone https://github.com/Saadkhan041/Contacts-Seperator
 4. ls
-5. cd Contacts-Seperator
+5. cd Seperator
 6. python3 main.py
 7. Select option1
 8. Paste the text
