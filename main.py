@@ -1,3 +1,4 @@
+import datetime
 import re
 import sys
 import time
@@ -30,14 +31,17 @@ def banner():
 
 
 banner()
-
+def view():
+    file  = open("seperator.txt", "r")
+    read = file.read()
+    print(ran + read)
 
 def exit():
     sys.exit()
 
 cont =" "
 while cont != "n" and "no":
-    print(Fore.LIGHTYELLOW_EX + "\n\t\t[1] Seperator\n\t\t[2] Exit\n ")
+    print(Fore.LIGHTYELLOW_EX + "\n\t\t[1] Seperator\n\t\t[2] View Data\n\t\t[3] Exit\n ")
 
     choice = input(ran + "Enter your choice: ")
     if choice == "1":
@@ -66,6 +70,8 @@ while cont != "n" and "no":
         print("\n\t\tDone and saved successfully! \n\t\tType cat seperator.txt to access the contents")
 
     elif choice == "2":
+        view()
+    elif choice == "3":
         print(ran + "\n\tDont Forget to do following tasks :-)\t\n")
         print(Fore.LIGHTCYAN_EX, "- " * 4, " [+] Follow me on Instagram @saadkhan041 ", "- " * 4)
         print(Fore.LIGHTYELLOW_EX, "\n", "- " * 4, " [+] Follow me on Instagram @coding_memz ", "- " * 4)
