@@ -20,7 +20,7 @@ def banner():
         os.system("clear")
 
         print(ran, pyfiglet.figlet_format("\tSeperator"))
-        print(ran + "\n\t\tV_1.0\t\n\n")
+        print(ran + "\t\tV_2.5.0\t\n\n")
         print("*" * 63)
 
         print(Style.BRIGHT+Fore.LIGHTCYAN_EX, "\n" ,"- " * 4, " [+] Follow me on Instagram @saadkhan041 ", "- " * 4)
